@@ -12,7 +12,7 @@ gem 'rails', '3.0.4'
 gem 'mysql', '2.8.1'
 # Deploy with Capistrano
 # gem 'capistrano'
-
+gem 'rake', '0.8.7'
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
 # gem 'ruby-debug19'
