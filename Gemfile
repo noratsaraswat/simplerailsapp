@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.4'
-
+#gem 'rails', '3.0.4'
+gem 'rails', '3.0.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -9,10 +9,16 @@ gem 'rails', '3.0.4'
 
 # Use unicorn as the web server
 # gem 'unicorn'
-gem 'mysql', '2.8.1'
+#gem 'mysql', '2.8.1'
+gem 'mysql2', '< 0.3'
+gem 'devise'
+gem 'cancan'
+group :development, :test do
+gem 'rspec-rails'
+end
 # Deploy with Capistrano
 # gem 'capistrano'
-gem 'rake', '0.8.7'
+
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
 # gem 'ruby-debug19'
