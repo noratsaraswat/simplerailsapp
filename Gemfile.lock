@@ -71,3 +71,4 @@ PLATFORMS
 DEPENDENCIES
   mysql (= 2.8.1)
   rails (= 3.0.4)
+  rake (= 0.8.7)
